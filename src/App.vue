@@ -1,6 +1,8 @@
 <template>
   <div id="app">
     <div>
+      <el-button type="primary" icon="el-icon-search" style="margin-bottom: 2rem;" @click="getAllList()">查询所有人员</el-button>
+
       <el-button type="primary" icon="el-icon-search" style="margin-bottom: 2rem;" @click="getList()">筛选心理健康程度较差的</el-button>
 
     </div>
